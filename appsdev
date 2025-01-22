@@ -1,0 +1,53 @@
+  // Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+        {
+        int idnumber=21486360;
+        string name= "Vaugn XHANDER A. Garcia";
+        string nickname="xhander";
+        string pcnumber = "PC 14";
+        string gender="Male";
+        string yearlevel="2nd Year";
+        string skills="Programmer";
+        string address= "Inayawan, Cebu City";
+        string course="BSIT";
+        
+        Console.WriteLine(idnumber);
+        Console.WriteLine(name);
+        Console.WriteLine(nickname);
+        Console.WriteLine(pcnumber);
+        Console.WriteLine(gender);
+        Console.WriteLine(yearlevel);
+        Console.WriteLine(skills);
+        Console.WriteLine(address);
+        Console.WriteLine(course);
+        
+        
+    }
+}
+
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+         string name= "Vaugn XHANDER A. Garcia";
+         Console.WriteLine(name);
+         int num1 = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Enter a number: ");
+         int num2 = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Enter another number: ");
+         
+        
+         
+    }
+}
