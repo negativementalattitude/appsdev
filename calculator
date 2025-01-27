@@ -1,0 +1,51 @@
+using System;
+
+class Calculator
+{
+    static void Main()
+    {
+        Console.WriteLine("Vaugn XHANDER A. Garcia");
+        Console.Write("\nEnter the First Number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine()); 
+        
+        Console.Write("Enter the Second Number: ");
+        int num2 = Convert.ToInt32(Console.ReadLine()); 
+        
+        Console.Write("Select an operator ( + , - , * , / , % ): ");
+        char op = Convert.ToChar(Console.ReadLine()); 
+        
+        double result = 0; 
+        
+        switch (op)
+        {
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '/':
+                if (num2 != 0) 
+                {
+                    result = (double)num1 / num2; 
+                }
+                else
+                {
+                    Console.WriteLine("Error: Division by zero.");
+                    return;
+                }
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '%':
+                result = num1 % num2;
+                break;
+            default:
+                Console.WriteLine("Invalid Operator.");
+                return;
+        }
+        
+        Console.WriteLine($"Result: {result}"); 
+    }
+}
